@@ -1,0 +1,125 @@
+header {
+  background-image: linear-gradient(
+    -20deg,
+    #616161 0%,
+    #9bc5c3 100%
+  ); /* background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%); */
+  padding: 10px;
+  color: rgb(213, 253, 243);
+}
+body {
+  font-family: "Gowun Dodum", sans-serif;
+  text-align: center;
+  background-image: url(leaf_background.jpg);
+  background-size: 100%;
+}
+.option2 {
+  list-style: none;
+  text-align: inherit;
+}
+.survey {
+  width: 50%;
+  margin: 20px auto;
+  background: #186476;
+  color: antiquewhite;
+  height: 200px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 7px #09332a;
+}
+.survey h3 {
+  margin: 8px;
+  padding-top: 10px;
+}
+
+.radio1,
+.radio2,
+.radio3,
+.radio4 {
+  display: inline;
+  position: relative;
+  width: 15px;
+  height: 15px;
+  color: #d6798d;
+}
+
+.end {
+  background-color: #09332a;
+  color: #afe1ec;
+  width: 80%;
+  margin: auto;
+  padding: 20px 0;
+  height: 200px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 7px black;
+}
+.end h1 {
+  margin: 5px;
+}
+.end p {
+  padding: 10px;
+}
+.end button {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  text-align: center;
+  transition: all 0.2s;
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  color: #186476;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.end button:hover {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+}
+.q1 {
+  display: block;
+}
+.option1 {
+  display: inherit;
+}
+.q2 {
+  display: none;
+}
+.q3 {
+  display: none;
+}
+.q4 {
+  display: none;
+}
+.q5 {
+  display: none;
+}
+.end {
+  display: none;
+}
+
+.color1 {
+  color: #09332a;
+}
+.color2 {
+  color: #186476;
+}
+.color3 {
+  color: #d6798d;
+}
+.color4 {
+  color: #d4b165;
+}
+.color5 {
+  color: #dbdb81;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap"
+      rel="stylesheet"
+    />
+    <title>Level One Survey</title>
+  </head>
+  <link rel="stylesheet" href="final.css" />
+  <body>
+    <header><h1>Salad Preferences Survey</h1></header>
+    <form method="GET" id="form">
+      <div class="survey">
+        <div class="q1">
+          <h3>Please Enter Your Name</h3>
+          <div class="form">
+            <!-- <form action="" method="GET" class="form1" onsubmit="myFunction()"> -->
+            <input
+              type="text"
+              name="name"
+              class="name-input"
+              id="name-input"
+              placeholder="Name"
+              required
+            />
+            <button class="name-button">Next</button>
+            <!-- </form> -->
+          </div>
+        </div>
+
+        <div class="q2">
+          <h3>How often do you eat salad?</h3>
+          <div class="radio1">
+            <input
+              type="radio"
+              name="salad"
+              id="never"
+              value="never"
+              required
+            />
+            <label for="never">Never</label>
+            <input type="radio" name="salad" id="1-3" value="1-3" />
+            <label for="1-3">1-3 times/week</label>
+            <input type="radio" name="salad" id="my-option" value="4-6" />
+            <label for="4-6">4-6 times/week</label>
+            <input type="radio" name="salad" id="my-option" value="every-day" />
+            <label for="every-day">Every Day!!!!</label>
+            <br />
+            <button id="q2-button">Next</button>
+          </div>
+        </div>
+
+        <div class="q3">
+          <h3>Which is your favorite ingredient?</h3>
+          <div class="radio2">
+            <input
+              type="radio"
+              name="ingredient"
+              id="vegetable"
+              value="vegetable"
+              required
+            />
+            <label for="vegetable">Vegetable</label>
+            <input
+              type="radio"
+              name="ingredient"
+              id="crouton"
+              value="crouton"
+            />
+            <label for="crouton">Crouton</label>
+            <input
+              type="radio"
+              name="ingredient"
+              id="bacon-chicken"
+              value="bacon-chicken"
+            />
+            <label for="bacon-chicken">Bacon/Chicken</label>
+            <input
+              type="radio"
+              name="ingredient"
+              id="dressing"
+              value="dressing"
+            />
+            <label for="dressing">Dressing</label>
+            <br />
+            <button id="q3-button">Next</button>
+          </div>
+        </div>
+
+        <div class="q4">
+          <h3>Which is your favorite dressing?</h3>
+          <div class="radio3">
+            <input
+              type="radio"
+              name="dressing"
+              id="ranch"
+              value="ranch"
+              required
+            />
+            <label for="ranch">Ranch</label>
+            <input type="radio" name="dressing" id="italian" value="italian" />
+            <label for="italian">Italian</label>
+            <input
+              type="radio"
+              name="dressing"
+              id="thousand-island"
+              value="thousand-island"
+            />
+            <label for="thousand-island">Thousand Island</label>
+            <input type="radio" name="dressing" id="vinegar" value="vinegar" />
+            <label for="vinegar">Vinegar</label>
+            <br />
+            <button id="q4-button">Next</button>
+          </div>
+        </div>
+
+        <div class="q5">
+          <h3>What is your age group?</h3>
+          <div class="radio4">
+            <input type="radio" name="age" id="15-20" value="15-20" required />
+            <label for="15-20">15-20</label>
+            <input type="radio" name="age" id="21-35" value="21-35" />
+            <label for="21-35">20-35</label>
+            <input type="radio" name="age" id="36-50" value="36-50" />
+            <label for="36-50">36-50</label>
+            <input type="radio" name="age" id="over-50" value="over-50" />
+            <label for="over-50">Over 50</label>
+            <br />
+            <button id="q5-button">Next</button>
+          </div>
+        </div>
+      </div>
+      <div class="end">
+        <h1>Thanks for participating!</h1>
+        <p>Eat more salads!!!</p>
+        <button type="submit" id="results-button">Results</button>
+      </div>
+    </form>
+
+    <script defer src="final.js"></script>
+  </body>
+</html>
